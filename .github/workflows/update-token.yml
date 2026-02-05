@@ -3,7 +3,7 @@ name: Update token link
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "0 */4 * * *"
 
 permissions:
   contents: write
@@ -28,14 +28,21 @@ jobs:
 
           data = json.loads(os.environ["ISSUE_JSON"])
           body = data.get("body", "")
-          match = re.search(r"`([a-zA-Z0-9]+)`", body)
+          match = re.search(r"\\|\\s*token\\s*\\|[^\\n]*`([a-zA-Z0-9]+)`", body, re.IGNORECASE)
           if not match:
               sys.exit("token not found")
           print(match.group(1))
           PY
           )
           url="https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=${token}&target=Clash&list=true"
-          curl -fsSL "$url" > latest_url.txt
+          run_at=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          {
+            echo "# run_at: ${run_at}"
+            echo "# source_url: ${url}"
+            echo "# issue: https://github.com/wzdnzd/aggregator/issues/91"
+            echo ""
+          } > issues_91_latest.yml
+          curl -fsSL "$url" >> issues_91_latest.yml
 
       - name: Commit changes
         shell: bash
@@ -47,6 +54,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add latest_url.txt
+          git add issues_91_latest.yml
           git commit -m "Update latest token url"
           git push
