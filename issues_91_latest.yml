@@ -1,1 +1,6 @@
-# 等待工作流更新最新订阅内容。
+# run_at: 2026-02-05T05:14:20Z
+# source_url: https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=token&target=Clash&list=true
+# issue: https://github.com/wzdnzd/aggregator/issues/91
+
+proxies:
+  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: 212.193.4.209, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, servername: sni.111000.indevs.in, client-fingerprint: chrome, network: ws, ws-opts: {path: "/?ed=2560&Telegram🇨🇳@WangCai2", headers: {Host: sni.111000.indevs.in}}, udp: true}
