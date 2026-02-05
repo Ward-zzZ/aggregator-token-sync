@@ -28,10 +28,16 @@ jobs:
 
           data = json.loads(os.environ["ISSUE_JSON"])
           body = data.get("body", "")
-          match = re.search(r"\\|\\s*token\\s*\\|[^\\n]*`([a-zA-Z0-9]+)`", body, re.IGNORECASE)
-          if not match:
+          token = None
+          for line in body.splitlines():
+              if re.search(r"\\|\\s*token\\s*\\|", line, re.IGNORECASE):
+                  match = re.search(r"`([a-zA-Z0-9]+)`", line)
+                  if match:
+                      token = match.group(1)
+                      break
+          if not token:
               sys.exit("token not found")
-          print(match.group(1))
+          print(token)
           PY
           )
           url="https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=${token}&target=Clash&list=true"
