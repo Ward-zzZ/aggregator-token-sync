@@ -35,7 +35,7 @@ jobs:
           PY
           )
           url="https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=${token}&target=Clash&list=true"
-          printf '%s\n' "$url" > latest_url.txt
+          curl -fsSL "$url" > latest_url.txt
 
       - name: Commit changes
         shell: bash
