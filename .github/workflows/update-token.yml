@@ -21,14 +21,18 @@ jobs:
           set -euo pipefail
           issue_json=$(curl -s https://api.github.com/repos/wzdnzd/aggregator/issues/91)
           token=$(ISSUE_JSON="$issue_json" python - <<'PY'
-import json, os, re, sys
-data=json.loads(os.environ['ISSUE_JSON'])
-body=data.get('body','')
-match=re.search(r"`([a-zA-Z0-9]+)`", body)
-if not match:
-    sys.exit('token not found')
-print(match.group(1))
-PY
+          import json
+          import os
+          import re
+          import sys
+
+          data = json.loads(os.environ["ISSUE_JSON"])
+          body = data.get("body", "")
+          match = re.search(r"`([a-zA-Z0-9]+)`", body)
+          if not match:
+              sys.exit("token not found")
+          print(match.group(1))
+          PY
           )
           url="https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=${token}&target=Clash&list=true"
           printf '%s\n' "$url" > latest_url.txt
