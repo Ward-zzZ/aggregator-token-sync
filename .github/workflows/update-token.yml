@@ -30,10 +30,12 @@ jobs:
           body = data.get("body", "")
           token = None
           for line in body.splitlines():
-              if re.search(r"\|\s*token\s*\|", line, re.IGNORECASE):
-                  match = re.search(r"`([a-zA-Z0-9]+)`", line)
-                  if match:
-                      token = match.group(1)
+              if re.search(r"\\|\\s*token\\s*\\|", line, re.IGNORECASE):
+                  candidates = [
+                      c for c in re.findall(r"[A-Za-z0-9]{6,}", line) if c.lower() != "token"
+                  ]
+                  if candidates:
+                      token = max(candidates, key=len)
                       break
           if not token:
               sys.exit("token not found")
