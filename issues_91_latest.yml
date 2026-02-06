@@ -1,6 +1,1 @@
-# run_at: 2026-02-06T10:19:50Z
-# source_url: https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=target&target=Clash&list=true
-# issue: https://github.com/wzdnzd/aggregator/issues/91
-
-proxies:
-  - {name: 🏳️‍🌈 Token已失效，请前往 https://github.com/wzdnzd/aggregator/issues/91 获取最新Token, server: dzgz.tcity8.monster, port: 35209, type: vmess, uuid: ca1ab5fa-6338-4c4a-95ba-562128f30bf4, alterId: 0, cipher: auto, tls: false, udp: true}
+# test
