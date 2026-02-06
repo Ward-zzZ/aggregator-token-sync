@@ -88,7 +88,7 @@ jobs:
           print(token)
           PY
           )
-          url="https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=${token}&target=Clash&list=true"
+          url="https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=${token}&target=Clash&list=false"
           run_at=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           {
             echo "# run_at: ${run_at}"
