@@ -27,6 +27,9 @@ jobs:
           import re
           import sys
 
+          # Words to exclude when searching for token (common table values)
+          EXCLUDED_WORDS = {"token", "details", "summary", "target", "clash", "v2ray", "singbox"}
+
           data = json.loads(os.environ["ISSUE_JSON"])
           body = data.get("body", "")
           token = None
@@ -49,14 +52,16 @@ jobs:
                   token = code_match.group(1)
                   break
               
-              # Method 3: Parse table cells and get 6th column (当前配置/current config)
+              # Method 3: Parse table cells and extract from index 6 (当前配置 column, 0-based)
+              # Table format: | name | usage | required | range | default | current | notes |
+              # Indices:        0      1       2          3       4         5         6       7
               cells = [c.strip() for c in line.split("|")]
               if len(cells) > 6:
                   config_cell = cells[6]
                   # Extract alphanumeric tokens, excluding common words
                   tokens = [
                       t for t in re.findall(r"[A-Za-z0-9]{6,}", config_cell)
-                      if t.lower() not in {"token", "details", "summary", "target", "clash", "v2ray", "singbox"}
+                      if t.lower() not in EXCLUDED_WORDS
                   ]
                   if tokens:
                       token = tokens[0]
