@@ -10,6 +10,8 @@ This repo includes a GitHub Actions workflow that keeps a single, fixed URL up-t
    - Go to **Actions** → **Update token link** → **Run workflow**.
 4. Or wait for the scheduled run (every 4 hours).
 
+> **Note:** The workflow uses `GITHUB_TOKEN` to authenticate API requests. This token is **automatically provided** by GitHub Actions and does **not** require any manual setup or configuration. GitHub creates this token for each workflow run automatically.
+
 After it runs, the updated content will be committed into `issues_91_latest.yml`. You can access that file via the raw GitHub URL:
 
 ```
@@ -32,3 +34,18 @@ If you don't see the **Run workflow** button:
 - Confirm you are viewing the **default branch** (the workflow pushes there).
 - Open the workflow run logs and look for `No changes to commit.` If present, the downloaded content matched the existing file.
 - If you still cannot find it, verify the repository allows **read/write** workflow permissions in **Settings → Actions → General**.
+
+## FAQ
+
+### Do I need to manually configure GITHUB_TOKEN?
+
+**No.** The `GITHUB_TOKEN` used in the workflow is **automatically provided** by GitHub Actions. You don't need to:
+- Create a personal access token
+- Add it to repository secrets
+- Configure anything manually
+
+GitHub automatically creates a unique `GITHUB_TOKEN` for each workflow run with the necessary permissions. The workflow uses this token to:
+- Authenticate API requests to avoid rate limits
+- Push commits back to the repository
+
+The only permission setting you may need to verify is in **Settings → Actions → General → Workflow permissions**, where "Read and write permissions" should be selected (this is usually the default).
