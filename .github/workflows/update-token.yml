@@ -20,7 +20,7 @@ jobs:
         run: |
           set -euo pipefail
           git pull --rebase origin "${GITHUB_REF_NAME}"
-          issue_json=$(curl -s https://api.github.com/repos/wzdnzd/aggregator/issues/91)
+          issue_json=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" https://api.github.com/repos/wzdnzd/aggregator/issues/91)
           token=$(ISSUE_JSON="$issue_json" python - <<'PY'
           import json
           import os
