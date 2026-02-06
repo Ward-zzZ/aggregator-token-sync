@@ -2,6 +2,24 @@
 
 This repo includes a GitHub Actions workflow that keeps a single, fixed URL up-to-date by extracting the latest `token` from https://github.com/wzdnzd/aggregator/issues/91 and writing the resulting subscription content to `issues_91_latest.yml`.
 
+## ⚠️ Important Disclaimer / 重要声明
+
+**English:**
+- This repository fetches proxy server configurations from a **public third-party source** (https://github.com/wzdnzd/aggregator/issues/91)
+- We do **NOT** own, control, or verify these proxy servers
+- We are **NOT** responsible for the availability, security, legality, or reliability of these services
+- Use these configurations **at your own risk**
+- Always verify the trustworthiness of proxy servers before use
+- Review [SECURITY.md](SECURITY.md) for security considerations
+
+**中文：**
+- 本仓库从**公开的第三方来源**获取代理服务器配置 (https://github.com/wzdnzd/aggregator/issues/91)
+- 我们**不拥有、不控制、不验证**这些代理服务器
+- 我们**不对**这些服务的可用性、安全性、合法性或可靠性**负责**
+- 使用这些配置需**自行承担风险**
+- 使用前请务必验证代理服务器的可信度
+- 请查看 [SECURITY.md](SECURITY.md) 了解安全注意事项
+
 ## How to run it
 
 1. Push this repository to GitHub (Actions only run on GitHub-hosted repos).
@@ -49,3 +67,19 @@ GitHub automatically creates a unique `GITHUB_TOKEN` for each workflow run with 
 - Push commits back to the repository
 
 The only permission setting you may need to verify is in **Settings → Actions → General → Workflow permissions**, where "Read and write permissions" should be selected (this is usually the default).
+
+## Security / 安全
+
+For security-related information and reporting vulnerabilities, please see [SECURITY.md](SECURITY.md).
+
+关于安全相关信息和漏洞报告，请参阅 [SECURITY.md](SECURITY.md)。
+
+For a comprehensive security analysis of this repository, see [SECURITY_ANALYSIS.md](SECURITY_ANALYSIS.md).
+
+有关本仓库的全面安全分析，请参阅 [SECURITY_ANALYSIS.md](SECURITY_ANALYSIS.md)。
+
+## License / 许可证
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件。
