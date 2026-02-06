@@ -30,22 +30,56 @@ jobs:
           data = json.loads(os.environ["ISSUE_JSON"])
           body = data.get("body", "")
           token = None
-          for line in body.splitlines():
-              if re.search(r"\\|\\s*token\\s*\\|", line, re.IGNORECASE):
-                  details_match = re.search(r"</summary>\\s*([A-Za-z0-9]{6,})", line, re.IGNORECASE)
+          
+          # Try to extract token from issue body
+          lines = body.splitlines()
+          for i, line in enumerate(lines):
+              if not re.search(r"\\|\\s*token\\s*\\|", line, re.IGNORECASE):
+                  continue
+              
+              # Method 1: Look for <details><summary>...</summary>TOKEN</details>
+              details_match = re.search(r"<details>.*?<summary>.*?</summary>\\s*([A-Za-z0-9]{6,})", line, re.DOTALL)
+              if details_match:
+                  token = details_match.group(1)
+                  break
+              
+              # Method 2: Look for `TOKEN` in code blocks
+              code_match = re.search(r"`([A-Za-z0-9]{6,})`", line)
+              if code_match:
+                  token = code_match.group(1)
+                  break
+              
+              # Method 3: Parse table cells and get 6th column (当前配置/current config)
+              cells = [c.strip() for c in line.split("|")]
+              if len(cells) > 6:
+                  config_cell = cells[6]
+                  # Extract alphanumeric tokens, excluding common words
+                  tokens = [
+                      t for t in re.findall(r"[A-Za-z0-9]{6,}", config_cell)
+                      if t.lower() not in {"token", "details", "summary", "target", "clash", "v2ray", "singbox"}
+                  ]
+                  if tokens:
+                      token = tokens[0]
+                      break
+              
+              # Method 4: Check next line (if table row is split)
+              if i + 1 < len(lines):
+                  next_line = lines[i + 1]
+                  
+                  # Look for <details> in next line
+                  details_match = re.search(r"<details>.*?<summary>.*?</summary>\\s*([A-Za-z0-9]{6,})", next_line, re.DOTALL)
                   if details_match:
                       token = details_match.group(1)
                       break
-                  candidates = [
-                      c
-                      for c in re.findall(r"[A-Za-z0-9]{6,}", line)
-                      if c.lower() not in {"token", "details", "summary"}
-                  ]
-                  if candidates:
-                      token = candidates[-1]
+                  
+                  # Look for code block in next line
+                  code_match = re.search(r"`([A-Za-z0-9]{6,})`", next_line)
+                  if code_match:
+                      token = code_match.group(1)
                       break
+          
           if not token:
-              sys.exit("token not found")
+              sys.exit("token not found in issue body")
           print(token)
           PY
           )
