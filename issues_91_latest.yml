@@ -1,4 +1,4 @@
-# run_at: 2026-02-15T08:05:45Z
+# run_at: 2026-02-15T12:05:01Z
 # source_url: https://qybndbviblvt.us-west-1.clawcloudrun.com/api/v1/subscribe?token=u0bt57u81cui26g1vc&target=Clash&list=false
 # issue: https://github.com/wzdnzd/aggregator/issues/91
 
@@ -10,81 +10,81 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🔔 关注https://github.com/wzdnzd不迷路, server: 9.9.9.9, port: 54321, type: ss, cipher: aes-256-cfb, password: febf501b-e19d-4451-8071-aa6144bb8825}
-  - {name: 🇺🇸 美国 029 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: b2e15b49-6606-4c62-baff-7015390b3c6a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋, server: 118.44.187.239, port: 10101, type: vless, uuid: 69905933-1b12-24fd-4ded-568ee4322895, tls: true, servername: a926adb5.lfree.ccwu.cc, network: ws, ws-opts: {path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719, headers: {Host: a926adb5.lfree.ccwu.cc}}, udp: true}
-  - {name: 🇻🇳 越南商宽 13 ⌈wzdnzd/aggregator⌋, server: 103.186.154.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 162 ⌈wzdnzd/aggregator⌋, server: ilop.uk2033.ccwu.cc, port: 443, type: trojan, password: 1338f666-2fcc-4538-bc29-1ebf89624383, sni: ilop.uk2033.ccwu.cc, alpn: [http/1.1], network: ws, ws-opts: {path: /XCLcnSashhgSVE3HOw1VI85y, headers: {Host: ilop.uk2033.ccwu.cc}}, udp: true}
-  - {name: 🇭🇰 香港 113 ⌈wzdnzd/aggregator⌋, server: 223.165.4.57, port: 443, type: trojan, password: 5a2c16f9, sni: 5c.hhhhh.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /223.165.4.57:443, headers: {Host: 5c.hhhhh.eu.org}}, udp: true}
-  - {name: 🇭🇰 香港家宽 03 ⌈wzdnzd/aggregator⌋, server: 58.152.25.208, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 105 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: f9b1da79-08ed-47cd-a0e9-3e2a87738954, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 018 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: c7b2da83-c2f2-4720-b1f3-e6ddb5c28341, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 091 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: c49812ff-c1ee-4abb-8eee-52bfc16ef923, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 009 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: a1a00c82-5356-4a49-8944-1cd0f94168bb, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 141 ⌈wzdnzd/aggregator⌋, server: 126404cd-tam1s0-tv7zgh-1ijh5.sjc.oshuawei.com, port: 443, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
-  - {name: 🇭🇰 香港 118 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 92953fc6-f497-43af-9d6d-f3b5589df318, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 094 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 5c48eec8-9455-401f-ac14-d61bd5a869e4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 008 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 8595b855-e4c4-40cd-834d-d34bb65ec928, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 10 ⌈wzdnzd/aggregator⌋, server: 8.209.202.241, port: 443, type: vless, uuid: 69905933-1b12-24fd-4ded-568ee4322895, tls: true, servername: a926adb5.lfree.ccwu.cc, network: ws, ws-opts: {path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719, headers: {Host: a926adb5.lfree.ccwu.cc}}, udp: true}
-  - {name: 🇺🇸 美国 038 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 2c571efb-1da8-4e8f-ac48-6e7bfc72b70f, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港家宽 02 ⌈wzdnzd/aggregator⌋, server: v10.hdacd.com, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, udp: true}
-  - {name: 🇻🇳 越南商宽 24 ⌈wzdnzd/aggregator⌋, server: 103.186.154.40, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇺🇸 美国 140 ⌈wzdnzd/aggregator⌋, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, servername: www.bing.com, udp: true}
-  - {name: 🇨🇦 加拿大 01 ⌈wzdnzd/aggregator⌋, server: bgty6.852224.xyz, port: 443, type: trojan, password: c52d2de2-fc6d-490c-8421-132f87615736, sni: bgty6.852224.xyz, alpn: [http/1.1], network: ws, ws-opts: {path: /PDbJ6Qn4xImwtg6PusRbe, headers: {Host: bgty6.852224.xyz}}, udp: true}
-  - {name: 🇺🇸 美国 040 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: f65f9706-55fb-4545-ad51-ca4075f78e7e, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 027 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 6f038cee-6ba1-4941-bce5-de1969f37405, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 056 ⌈wzdnzd/aggregator⌋, server: 174.136.205.68, port: 443, type: vless, uuid: 24717d75-93dc-46ad-9b99-89a33a978bf7, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇹🇼 台湾 20 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: a76ab750-bd97-4a47-bf7e-6220e85b1c28, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 073 ⌈wzdnzd/aggregator⌋, server: 174.136.205.68, port: 443, type: vless, uuid: 6529b6d1-635d-4a45-9bbc-ac5c0db3130f, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇭🇰 香港 080 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: ba4bc616-c577-4455-b98e-4f3686f57ee6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国 06 ⌈wzdnzd/aggregator⌋, server: kr1.miyazono-kaori.com, port: 46166, type: hysteria2, password: 5dc07e5e-59dd-41f2-96b1-e8a8133a0dbc, auth: 5dc07e5e-59dd-41f2-96b1-e8a8133a0dbc, sni: kr1.miyazono-kaori.com, skip-cert-verify: false, obfs: salamander, obfs-password: MKsqfibVxwhZ3pCf, ports: 40000-50000, udp: true}
-  - {name: 🇭🇰 香港 044 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 582495c6-0878-4298-bec1-78a3f09bbd95, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 018 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 86666b31-931e-4992-8d21-f60a91c138bf, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 084 ⌈wzdnzd/aggregator⌋, server: cloudflare-dns.com, port: 2095, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, servername: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /, headers: {Host: cnmfangbinxing.cnmfangbinxing-nmsl.workers.dev}}, udp: true}
-  - {name: 🇸🇬 新加坡 04 ⌈wzdnzd/aggregator⌋, server: mfa.gov.ua, port: 443, type: vless, uuid: 69905933-1b12-24fd-4ded-568ee4322895, tls: true, servername: a926adb5.lfree.ccwu.cc, network: ws, ws-opts: {path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719, headers: {Host: a926adb5.lfree.ccwu.cc}}, udp: true}
-  - {name: 🇺🇸 美国 085 ⌈wzdnzd/aggregator⌋, server: www.epicgames.com, port: 2095, type: vless, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, tls: false, servername: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev, client-fingerprint: randomized, network: ws, ws-opts: {path: /, headers: {Host: cnm-fangbinxing-nmsl.cnm-fangbinxing-nmsl-wcnm.workers.dev}}, udp: true}
-  - {name: 🇺🇸 美国 104 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 93a36565-8742-4027-8470-f71664a118cf, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 020 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 47d9af53-24a8-4593-a439-a73b88ad53ae, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋, server: v29.hdacd.com, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 045 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: a1a00c82-5356-4a49-8944-1cd0f94168bb, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 009 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 45173682-5f01-4254-8baa-930de8a6de8b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国 06 ⌈wzdnzd/aggregator⌋, server: vpn.nnet.online, port: 80, type: vless, uuid: 79d24ca6-8f75-4653-9a9c-2d4ee38f4b88, tls: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-ntls, headers: {Host: nnet.online}}, udp: true}
-  - {name: 🇺🇸 美国 132 ⌈wzdnzd/aggregator⌋, server: bnh.tt8.ccwu.cc, port: 443, type: vless, uuid: b020865b-7404-4894-ba65-a7414b10cda3, tls: true, alpn: [http%2F1.1], servername: bnh.tt8.ccwu.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: /15ZYK3adOPjqSc7fzeJr, headers: {Host: bnh.tt8.ccwu.cc}}, udp: true}
-  - {name: 🇸🇬 新加坡 07 ⌈wzdnzd/aggregator⌋, server: 172.64.144.51, port: 8443, type: vless, uuid: 69905933-1b12-24fd-4ded-568ee4322895, tls: true, servername: a926adb5.lfree.ccwu.cc, network: ws, ws-opts: {path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719, headers: {Host: a926adb5.lfree.ccwu.cc}}, udp: true}
-  - {name: 🇺🇸 美国 079 ⌈wzdnzd/aggregator⌋, server: 167.71.154.0, port: 9999, type: anytls, password: 437bd464-b524-3812-ac02-85483bcf7407, udp: true, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 029 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: a81896fd-662a-4b6d-9658-4a08fba7213c, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 109 ⌈wzdnzd/aggregator⌋, server: e6d08469-tam1s0-tv7zgh-1ijh5.jp.oshuawei.com, port: 443, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
-  - {name: 🇭🇰 香港 001 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 47d9af53-24a8-4593-a439-a73b88ad53ae, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 086 ⌈wzdnzd/aggregator⌋, server: www.visa.com.sg, port: 2052, type: vless, uuid: cdec8542-a21f-4377-9da3-ea60bb6d3a30, tls: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /🔒, headers: {Host: chosenflyesqt-q3y28ipf-v2.chosen-fly-esqt.workers.dev}}, udp: true}
-  - {name: 🇭🇰 香港 091 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 86666b31-931e-4992-8d21-f60a91c138bf, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: 🇹🇼 台湾 19 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 0b8db9a4-95ce-43bd-8e01-fa7e6ea2fd12, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇭 泰国商宽 01 ⌈wzdnzd/aggregator⌋, server: fa442178-tam1s0-tv7zgh-1ijh5.id.oshuawei.com, port: 32232, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
-  - {name: 🇺🇸 美国 090 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 2c571efb-1da8-4e8f-ac48-6e7bfc72b70f, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 096 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: e8351d43-56c3-4e90-8f03-11a05b5d7eca, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 076 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: e8351d43-56c3-4e90-8f03-11a05b5d7eca, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 050 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: ba222255-00e9-434d-88f0-e0c22ac529f4, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 048 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 36325a98-46a4-4770-977a-9a9570e0bcc6, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 090 ⌈wzdnzd/aggregator⌋, server: freea.glyphara.com, port: 30101, type: vless, uuid: f57badb5-1fd3-41c1-8094-5d5470671b1c, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: egnl0iFXY3IZYfvHwoNd72sCaULkoFRoL78wQiFwcDU, short-id: "176d4445" }, servername: itunes.apple.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: 🇹🇼 台湾 21 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: adf2550f-8b87-4ea1-aa80-e7fc8f65a68a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 015 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 8769f455-03bf-41fb-8166-73542bfd153d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南商宽 18 ⌈wzdnzd/aggregator⌋, server: 103.186.155.26, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇭🇰 香港 103 ⌈wzdnzd/aggregator⌋, server: 149.104.28.229, port: 443, type: vless, uuid: 69905933-1b12-24fd-4ded-568ee4322895, tls: true, servername: a926adb5.lfree.ccwu.cc, network: ws, ws-opts: {path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719, headers: {Host: a926adb5.lfree.ccwu.cc}}, udp: true}
-  - {name: 🇭🇰 香港 112 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: ba222255-00e9-434d-88f0-e0c22ac529f4, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: 🇭🇰 香港 032 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: 190adba1-a76f-471f-b780-d3e53a3c3d0a, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true}
-  - {name: 🇭🇰 香港 005 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 302f7690-aae0-449c-bfe0-0c3ac869dbb2, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 01 ⌈wzdnzd/aggregator⌋, server: 47.74.16.139, port: 39999, type: anytls, password: 437bd464-b524-3812-ac02-85483bcf7407, udp: true, skip-cert-verify: true}
-  - {name: 🇺🇸 美国 071 ⌈wzdnzd/aggregator⌋, server: 174.136.205.68, port: 443, type: vless, uuid: dc56359e-2792-4535-94e3-003d59debf36, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇹🇼 台湾 05 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 5c48eec8-9455-401f-ac14-d61bd5a869e4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 022 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: b4fed904-61ad-4a31-9fb0-8d85ccbcb660, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南商宽 04 ⌈wzdnzd/aggregator⌋, server: 103.186.154.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 🇹🇼 台湾 10 ⌈wzdnzd/aggregator⌋, server: 103.137.63.227, port: 8443, type: trojan, password: 5a2c16f9, sni: 5c.hhhhh.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /103.137.63.227:8443, headers: {Host: 5c.hhhhh.eu.org}}, udp: true}
-  - {name: 🇭🇰 香港 003 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: fdd6c2d0-2eaf-4e95-bfaa-432beb680ca9, sni: green2.cdntencentmusic.com, udp: true}
-  - {name: 🇺🇸 美国 067 ⌈wzdnzd/aggregator⌋, server: 174.136.205.68, port: 443, type: vless, uuid: 6555576f-3ae2-4d62-9cfb-50701bad1893, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国 137 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 92953fc6-f497-43af-9d6d-f3b5589df318, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 087 ⌈wzdnzd/aggregator⌋, server: 8.223.63.189, port: 443, type: vless, uuid: 69905933-1b12-24fd-4ded-568ee4322895, tls: true, servername: a926adb5.lfree.ccwu.cc, network: ws, ws-opts: {path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719, headers: {Host: a926adb5.lfree.ccwu.cc}}, udp: true}
-  - {name: 🇭🇰 香港 054 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 5c48eec8-9455-401f-ac14-d61bd5a869e4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 157 ⌈wzdnzd/aggregator⌋, server: 81218517-tam1s0-tv7zgh-1ijh5.se.oshuawei.com, port: 443, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
-  - {name: 🇭🇰 香港 007 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 1f79c194-37cf-419d-994e-8d17136abb45, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 110 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: b2e15b49-6606-4c62-baff-7015390b3c6a, sni: green2.cdntencentmusic.com, udp: true}
+  - {name: 🇭🇰 香港 097 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31101, type: trojan, password: e3492f89-0cee-4034-8074-22b23ca9a3f4, sni: green2.cdntencentmusic.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 011 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 5f6ded93-4ab8-4a99-9c84-b19b9993f27c, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南商宽 25 ⌈wzdnzd/aggregator⌋, server: 103.186.154.244, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇳🇱 荷兰 01 ⌈wzdnzd/aggregator⌋, server: 188.114.97.3, port: 80, type: vless, uuid: c3f75f0e-3fe6-4037-95be-ec869c453dfc, tls: false, servername: 024.electrocellco-cf-024.workers.dev, client-fingerprint: chrome, network: ws, ws-opts: {path: /eyJqdW5rIjoiZUtoUTZYaXU3TmIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119, headers: {Host: 024.electrocellco-cf-024.workers.dev}}, udp: true}
+  - {name: 🇩🇪 德国 03 ⌈wzdnzd/aggregator⌋, server: dll.avaaaal.ir, port: 8443, type: vmess, uuid: 725f5fcd-721d-40a0-ba6b-3c7477633110, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: cdge.avaaaal.ir, network: ws, ws-opts: {path: /, headers: {Host: cdge.avaaaal.ir}}, udp: true}
+  - {name: 🇭🇰 香港 121 ⌈wzdnzd/aggregator⌋, server: 103.149.183.80, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: 🇭🇰 香港 083 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: b9c3a952-bd14-4d4a-a1db-afd53fa1c414, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国 08 ⌈wzdnzd/aggregator⌋, server: 175.212.135.213, port: 21320, type: vless, uuid: 69905933-1b12-24fd-4ded-568ee4322895, tls: true, servername: a926adb5.lfree.ccwu.cc, network: ws, ws-opts: {path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719, headers: {Host: a926adb5.lfree.ccwu.cc}}, udp: true}
+  - {name: 🇺🇸 美国 119 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 45173682-5f01-4254-8baa-930de8a6de8b, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 056 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 48f7647f-b5ac-4f13-a524-7196f4182665, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 041 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 582495c6-0878-4298-bec1-78a3f09bbd95, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 021 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 36325a98-46a4-4770-977a-9a9570e0bcc6, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 13 ⌈wzdnzd/aggregator⌋, server: bd25f25b-tam1s0-tv7zgh-1ijh5.cm4.oshuawei.com, port: 17235, type: http, username: f7d95364-607b-11ee-93af-f23c91369f2d, password: f7d95364-607b-11ee-93af-f23c91369f2d, tls: true}
+  - {name: 🇺🇸 美国 103 ⌈wzdnzd/aggregator⌋, server: 104.167.197.27, port: 443, type: vless, uuid: c5f8c9a4-916d-45c3-aad3-cd3ed706c5dd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: a0utGrRVTHL53cH4poHif9aPJNNQ10nhiMSdx8n1kGk, short-id: "5a2d4f49" }, servername: azure.microsoft.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 130 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: b2e15b49-6606-4c62-baff-7015390b3c6a, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 017 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 20a3d819-ca7f-48a6-ba20-f7021e8dbbbe, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 135 ⌈wzdnzd/aggregator⌋, server: 174.136.205.68, port: 443, type: vless, uuid: 1be0abff-aa62-4e7a-bade-982c593be422, tls: true, reality-opts: {public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc, short-id: "2da72ce6" }, servername: navi.bankrate.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇹🇼 台湾 23 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 48f7647f-b5ac-4f13-a524-7196f4182665, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 059 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: c7b2da83-c2f2-4720-b1f3-e6ddb5c28341, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 06 ⌈wzdnzd/aggregator⌋, server: jry.izenny.com, port: 29571, type: ss, cipher: chacha20-ietf-poly1305, password: a11ad7eb-9470-4b0d-8676-e6b1b15e629e, udp: true}
+  - {name: 🇭🇰 香港 058 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: c18f286e-372a-49ab-947c-0888bce67b91, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 036 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 93a36565-8742-4027-8470-f71664a118cf, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南商宽 16 ⌈wzdnzd/aggregator⌋, server: 103.186.155.13, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 147 ⌈wzdnzd/aggregator⌋, server: bh.bb2.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, headers: {Host: bh.bb2.indevs.in}}, udp: true}
+  - {name: 🇺🇸 美国 110 ⌈wzdnzd/aggregator⌋, server: v8.hdacd.com, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 120 ⌈wzdnzd/aggregator⌋, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: 🇺🇸 美国 030 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: def22699-548e-4b87-a3e6-954e944b24b9, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 031 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: a75afa6c-f760-4dc7-9935-466d49479891, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 01 ⌈wzdnzd/aggregator⌋, server: cm.cf.090227.xyz, port: 443, type: vless, uuid: 69905933-1b12-24fd-4ded-568ee4322895, tls: true, servername: a926adb5.lfree.ccwu.cc, network: ws, ws-opts: {path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719, headers: {Host: a926adb5.lfree.ccwu.cc}}, udp: true}
+  - {name: 🇺🇸 美国 048 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 0b8db9a4-95ce-43bd-8e01-fa7e6ea2fd12, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 06 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: e8351d43-56c3-4e90-8f03-11a05b5d7eca, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 荷兰 06 ⌈wzdnzd/aggregator⌋, server: sourceforge.net, port: 80, type: vless, uuid: c187f3a7-b03e-47b4-820a-959161e8b01e, tls: false, network: ws, ws-opts: {path: "/@En_Vpn---@En_Vpn---@En_Vpn---@En_Vpn---@En_Vpn---@En_Vpn---@En_Vpn---@En_Vpn---?ed=2560/@En_Vpn---@En_Vpn---@En_Vpn---@En_Vpn---@En_Vpn---@En_Vpn---@En_Vpn---@En_Vpn---?ed=80", headers: {Host: web.eitaa.ir.drhozhabricilinic.ir}}, udp: true}
+  - {name: 🇻🇳 越南商宽 32 ⌈wzdnzd/aggregator⌋, server: 103.186.155.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南商宽 02 ⌈wzdnzd/aggregator⌋, server: 103.186.155.110, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇹🇼 台湾 02 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 8eb44157-4e75-413f-9c0e-a2d46e242e9e, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 荷兰 05 ⌈wzdnzd/aggregator⌋, server: 5.188.143.8, port: 443, type: vless, uuid: c343f67e-8781-4a8e-97e4-e74ab137eb1c, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: c8x7I-K2ONBUw5B2d1aZr7JNcFUu7GDfs8PAK-4qM1E, short-id: "0d33e856" }, servername: ads.x5.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 047 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: a81896fd-662a-4b6d-9658-4a08fba7213c, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 100 ⌈wzdnzd/aggregator⌋, server: 1.ae1.indevs.in, port: 80, type: vmess, uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: 1.AE1.InDeVs.In, network: ws, ws-opts: {path: /KHtPvNZl371C8NsbbZ1wwDhJ3, headers: {Host: 1.aE1.InDevs.In}}, udp: true}
+  - {name: 🇻🇳 越南商宽 20 ⌈wzdnzd/aggregator⌋, server: 103.186.154.196, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港 102 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: ba4bc616-c577-4455-b98e-4f3686f57ee6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 10 ⌈wzdnzd/aggregator⌋, server: nekocloud.tencentapp.cn, port: 443, type: vless, uuid: 69905933-1b12-24fd-4ded-568ee4322895, tls: true, servername: a926adb5.lfree.ccwu.cc, network: ws, ws-opts: {path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719, headers: {Host: a926adb5.lfree.ccwu.cc}}, udp: true}
+  - {name: 🇻🇳 越南商宽 15 ⌈wzdnzd/aggregator⌋, server: 103.186.155.23, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇻🇳 越南 01 ⌈wzdnzd/aggregator⌋, server: 103.186.155.121, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇳🇱 荷兰 02 ⌈wzdnzd/aggregator⌋, server: nextmi.hajmyab.ir, port: 2053, type: vmess, uuid: 9585636a-54bc-419a-90a1-76c5c6ec74df, alterId: 0, cipher: auto, tls: true, servername: yakxvtfbyk.hajmyab.ir, network: ws, ws-opts: {path: /, headers: {Host: app.hajmyab.ir}}, udp: true}
+  - {name: 🇺🇸 美国 133 ⌈wzdnzd/aggregator⌋, server: ji.ae1autumn.us.ci, port: 80, type: vless, uuid: 4c205c81-5694-43fe-a287-af563a2ebc05, tls: false, servername: ji.ae1autumn.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: /AbRz6tBwBWo4gds7cXpDB5nO5, headers: {Host: ji.ae1autumn.us.ci}}, udp: true}
+  - {name: 🇩🇪 德国 09 ⌈wzdnzd/aggregator⌋, server: deu542.globalunlock.org, port: 443, type: vless, uuid: ee750cca-f549-4e78-8648-a6b762953e70, tls: true, flow: xtls-rprx-vision, servername: deu542.globalunlock.org, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇹🇼 台湾 03 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: ba4bc616-c577-4455-b98e-4f3686f57ee6, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇳 印度 03 ⌈wzdnzd/aggregator⌋, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: dc8a4f89-3fc7-4562-b93c-dc7c470826ec, udp: true}
+  - {name: 🇺🇸 美国 096 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 26635779-8ce6-4c07-ae5d-f3769ec95ddd, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡 15 ⌈wzdnzd/aggregator⌋, server: freea.glyphara.com, port: 30402, type: vless, uuid: f57badb5-1fd3-41c1-8094-5d5470671b1c, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew, short-id: "f5f6e6f4" }, servername: itunes.apple.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇺🇸 美国 165 ⌈wzdnzd/aggregator⌋, server: bfgt.ae1.us.ci, port: 80, type: vless, uuid: 4c205c81-5694-43fe-a287-af563a2ebc05, tls: false, servername: bfgt.ae1.us.ci, client-fingerprint: chrome, network: ws, ws-opts: {path: /AbRz6tBwBWo4gds7cXpDB5nO5, headers: {Host: bfgt.ae1.us.ci}}, udp: true}
+  - {name: 🇻🇳 越南商宽 30 ⌈wzdnzd/aggregator⌋, server: 103.186.155.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 美国 176 ⌈wzdnzd/aggregator⌋, server: nju.bb4.indevs.in, port: 80, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: false, servername: nju.bb4.indevs.in, network: ws, ws-opts: {path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, headers: {Host: nju.bb4.indevs.in}}, udp: true}
+  - {name: 🇭🇰 香港 086 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: 11cfbea5-eae4-4654-8aa9-a9481f38dc42, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 028 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 11cfbea5-eae4-4654-8aa9-a9481f38dc42, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 179 ⌈wzdnzd/aggregator⌋, server: cf.xn--9kqp42aims.top, port: 443, type: vless, uuid: 04793d5b-1b79-49fc-b5f9-2e8ce0e3ebc6, tls: true, servername: dog-sg1.lxy1015.top, client-fingerprint: edge, network: ws, ws-opts: {path: /dogsg, headers: {Host: dog-sg1.lxy1015.top}}, udp: true}
+  - {name: 🇺🇸 美国 101 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35502, type: trojan, password: 0617a6f5-ba9b-41f3-87f8-37c874aa3c52, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 122 ⌈wzdnzd/aggregator⌋, server: u.89060004.xyz, port: 443, type: vless, uuid: 4c205c81-5694-43fe-a287-af563a2ebc05, tls: true, servername: u.89060004.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /AbRz6tBwBWo4gds7cXpDB5nO5, headers: {Host: u.89060004.xyz}}, udp: true}
+  - {name: 🇰🇷 韩国 05 ⌈wzdnzd/aggregator⌋, server: testkr3.ssv.vc, port: 30446, type: http, username: test, password: test.+, tls: true, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 084 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31103, type: trojan, password: c7b2da83-c2f2-4720-b1f3-e6ddb5c28341, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 055 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 93a36565-8742-4027-8470-f71664a118cf, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 001 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: 48f7647f-b5ac-4f13-a524-7196f4182665, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 057 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 8769f455-03bf-41fb-8166-73542bfd153d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 180 ⌈wzdnzd/aggregator⌋, server: kkkiop.0890604.xyz, port: 443, type: trojan, password: 827beb2a-f97a-4b23-b733-adef30c98e17, sni: kkkiop.0890604.xyz, alpn: [h2], skip-cert-verify: false, network: grpc, grpc-opts: {grpc-service-name: RM17S7oAHRSadQhnQr}, udp: true}
+  - {name: 🇺🇸 美国 153 ⌈wzdnzd/aggregator⌋, server: freea.glyphara.com, port: 30703, type: vless, uuid: f57badb5-1fd3-41c1-8094-5d5470671b1c, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Fpcp8ed_KjL5rnn0gstMa0AQPL8GcYMtArb--r1AhnI, short-id: "845532fa" }, servername: mensura.cdn-apple.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: 🇻🇳 越南商宽 19 ⌈wzdnzd/aggregator⌋, server: 103.186.154.78, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 香港 021 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 11cfbea5-eae4-4654-8aa9-a9481f38dc42, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 144 ⌈wzdnzd/aggregator⌋, server: jk.857856.xyz, port: 443, type: vmess, uuid: b020865b-7404-4894-ba65-a7414b10cda3, alterId: 0, cipher: auto, tls: true, servername: jk.857856.xyz, network: ws, ws-opts: {path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr, headers: {Host: jk.857856.xyz}}, udp: true}
+  - {name: 🇸🇬 新加坡 02 ⌈wzdnzd/aggregator⌋, server: 198.41.222.50, port: 8080, type: vless, uuid: 27950cc1-85b4-4ecc-ad3a-4507360504af, tls: false, client-fingerprint: chrome, network: ws, ws-opts: {path: /eyJqdW5rIjoiQjE1UDBKNGN6UnEzNjg2IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiMTg1LjIxMy4yMTEuMjkiLCIzMS40NC4yLjU3IiwiNzcuMjQ2LjEwOC4xMzAiXX0=, headers: {Host: 031.electrocellco-cf-031.workers.dev}}, udp: true}
+  - {name: 🇭🇰 香港 064 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 31102, type: trojan, password: 8595b855-e4c4-40cd-834d-d34bb65ec928, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 123 ⌈wzdnzd/aggregator⌋, server: 192.0.54.31, port: 2053, type: vless, uuid: 69905933-1b12-24fd-4ded-568ee4322895, tls: true, servername: a926adb5.lfree.ccwu.cc, network: ws, ws-opts: {path: /socks5=44fa737d:1bab4a4504ca@38.96.191.150:21719, headers: {Host: a926adb5.lfree.ccwu.cc}}, udp: true}
+  - {name: 🇭🇰 香港 078 ⌈wzdnzd/aggregator⌋, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 8769f455-03bf-41fb-8166-73542bfd153d, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 11 ⌈wzdnzd/aggregator⌋, server: 125.228.141.233, port: 443, type: trojan, password: 5a2c16f9, sni: 5c.hhhhh.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /125.228.141.233:443, headers: {Host: 5c.hhhhh.eu.org}}, udp: true}
+  - {name: 🇺🇸 美国 010 ⌈wzdnzd/aggregator⌋, server: green2.cdntencentmusic.com, port: 35501, type: trojan, password: c18f286e-372a-49ab-947c-0888bce67b91, sni: green2.cdntencentmusic.com, skip-cert-verify: true, udp: true}
+  - {name: 🇻🇳 越南商宽 22 ⌈wzdnzd/aggregator⌋, server: 103.186.155.154, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -92,162 +92,162 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 029 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 13 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 162 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 113 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 03 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 105 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 091 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 009 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 141 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 118 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 094 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 008 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 10 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 038 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 02 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 24 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 140 ⌈wzdnzd/aggregator⌋
-      - 🇨🇦 加拿大 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 040 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 027 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 056 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 20 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 073 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 080 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 06 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 044 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 084 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 04 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 085 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 104 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 020 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 045 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 009 ⌈wzdnzd/aggregator⌋
-      - 🇩🇪 德国 06 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 132 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 07 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 079 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 029 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 109 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 001 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 086 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 091 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 19 ⌈wzdnzd/aggregator⌋
-      - 🇹🇭 泰国商宽 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 090 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 096 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 076 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 050 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 048 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 090 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 21 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 015 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 18 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 103 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 112 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 032 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 005 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 071 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 05 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 022 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 04 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 10 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 003 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 067 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 137 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 087 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 054 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 157 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 007 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 097 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 011 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 25 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 01 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 03 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 121 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 083 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 08 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 119 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 056 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 041 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 021 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 13 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 103 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 130 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 017 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 135 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 23 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 059 ⌈wzdnzd/aggregator⌋
+      - 🇯🇵 日本 06 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 058 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 036 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 16 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 147 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 120 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 030 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 031 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 01 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 048 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 06 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 06 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 32 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 02 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 02 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 05 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 047 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 100 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 20 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 102 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 10 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 15 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南 01 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 02 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 133 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 09 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 03 ⌈wzdnzd/aggregator⌋
+      - 🇮🇳 印度 03 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 096 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 15 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 165 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 30 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 176 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 086 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 028 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 179 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 101 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 122 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 05 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 084 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 055 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 001 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 057 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 180 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 153 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 19 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 021 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 144 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 02 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 064 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 123 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 078 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 11 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 010 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 22 ⌈wzdnzd/aggregator⌋
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 029 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 13 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 162 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 113 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 03 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 105 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 091 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 009 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 141 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 118 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 094 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 008 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 10 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 038 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 02 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 24 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 140 ⌈wzdnzd/aggregator⌋
-      - 🇨🇦 加拿大 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 040 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 027 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 056 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 20 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 073 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 080 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 06 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 044 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 084 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 04 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 085 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 104 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 020 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 045 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 009 ⌈wzdnzd/aggregator⌋
-      - 🇩🇪 德国 06 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 132 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 07 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 079 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 029 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 109 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 001 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 086 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 091 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 19 ⌈wzdnzd/aggregator⌋
-      - 🇹🇭 泰国商宽 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 090 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 096 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 076 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 050 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 048 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 090 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 21 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 015 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 18 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 103 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 112 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 032 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 005 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 071 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 05 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 022 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 04 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 10 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 003 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 067 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 137 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 087 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 054 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 157 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 007 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 097 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 011 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 25 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 01 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 03 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 121 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 083 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 08 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 119 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 056 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 041 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 021 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 13 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 103 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 130 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 017 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 135 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 23 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 059 ⌈wzdnzd/aggregator⌋
+      - 🇯🇵 日本 06 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 058 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 036 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 16 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 147 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 120 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 030 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 031 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 01 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 048 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 06 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 06 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 32 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 02 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 02 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 05 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 047 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 100 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 20 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 102 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 10 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 15 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南 01 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 02 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 133 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 09 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 03 ⌈wzdnzd/aggregator⌋
+      - 🇮🇳 印度 03 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 096 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 15 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 165 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 30 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 176 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 086 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 028 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 179 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 101 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 122 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 05 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 084 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 055 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 001 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 057 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 180 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 153 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 19 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 021 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 144 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 02 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 064 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 123 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 078 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 11 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 010 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 22 ⌈wzdnzd/aggregator⌋
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -255,81 +255,81 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 029 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 13 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 162 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 113 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 03 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 105 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 091 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 009 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 141 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 118 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 094 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 008 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 10 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 038 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 02 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 24 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 140 ⌈wzdnzd/aggregator⌋
-      - 🇨🇦 加拿大 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 040 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 027 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 056 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 20 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 073 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 080 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 06 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 044 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 084 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 04 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 085 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 104 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 020 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 045 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 009 ⌈wzdnzd/aggregator⌋
-      - 🇩🇪 德国 06 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 132 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 07 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 079 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 029 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 109 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 001 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 086 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 091 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 19 ⌈wzdnzd/aggregator⌋
-      - 🇹🇭 泰国商宽 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 090 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 096 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 076 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 050 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 048 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 090 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 21 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 015 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 18 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 103 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 112 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 032 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 005 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 071 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 05 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 022 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 04 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 10 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 003 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 067 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 137 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 087 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 054 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 157 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 007 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 097 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 011 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 25 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 01 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 03 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 121 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 083 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 08 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 119 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 056 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 041 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 021 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 13 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 103 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 130 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 017 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 135 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 23 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 059 ⌈wzdnzd/aggregator⌋
+      - 🇯🇵 日本 06 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 058 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 036 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 16 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 147 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 120 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 030 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 031 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 01 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 048 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 06 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 06 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 32 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 02 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 02 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 05 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 047 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 100 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 20 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 102 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 10 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 15 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南 01 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 02 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 133 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 09 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 03 ⌈wzdnzd/aggregator⌋
+      - 🇮🇳 印度 03 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 096 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 15 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 165 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 30 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 176 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 086 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 028 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 179 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 101 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 122 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 05 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 084 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 055 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 001 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 057 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 180 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 153 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 19 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 021 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 144 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 02 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 064 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 123 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 078 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 11 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 010 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 22 ⌈wzdnzd/aggregator⌋
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -349,116 +349,105 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 029 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 13 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 162 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 113 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 03 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 105 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 091 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 009 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 141 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 118 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 094 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 008 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 10 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 038 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 02 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 24 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 140 ⌈wzdnzd/aggregator⌋
-      - 🇨🇦 加拿大 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 040 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 027 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 056 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 20 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 073 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 080 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 06 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 044 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 084 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 04 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 085 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 104 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 020 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 045 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 009 ⌈wzdnzd/aggregator⌋
-      - 🇩🇪 德国 06 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 132 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 07 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 079 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 029 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 109 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 001 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 086 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 091 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 19 ⌈wzdnzd/aggregator⌋
-      - 🇹🇭 泰国商宽 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 090 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 096 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 076 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 050 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 048 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 090 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 21 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 015 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 18 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 103 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 112 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 032 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 005 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 071 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 05 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 022 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 04 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 10 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 003 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 067 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 137 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 087 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 054 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 157 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 007 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 097 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 011 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 25 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 01 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 03 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 121 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 083 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 08 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 119 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 056 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 041 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 021 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 13 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 103 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 130 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 017 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 135 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 23 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 059 ⌈wzdnzd/aggregator⌋
+      - 🇯🇵 日本 06 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 058 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 036 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 16 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 147 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 120 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 030 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 031 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 01 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 048 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 06 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 06 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 32 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 02 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 02 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 05 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 047 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 100 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 20 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 102 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 10 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 15 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南 01 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 02 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 133 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 09 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 03 ⌈wzdnzd/aggregator⌋
+      - 🇮🇳 印度 03 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 096 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 15 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 165 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 30 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 176 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 086 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 028 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 179 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 101 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 122 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 05 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 084 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 055 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 001 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 057 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 180 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 153 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 19 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 021 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 144 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 02 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 064 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 123 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 078 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 11 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 010 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 22 ⌈wzdnzd/aggregator⌋
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 113 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 03 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 009 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 118 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 094 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 02 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 20 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 080 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 044 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 018 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 020 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 029 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 001 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 091 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 19 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 096 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 076 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 048 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 090 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 21 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 103 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 112 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 032 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 005 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 05 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 10 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 003 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 087 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 054 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 007 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 097 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 121 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 083 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 056 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 23 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 059 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 058 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 036 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 120 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 06 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 02 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 102 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 03 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 086 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 084 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 057 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 021 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 064 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 078 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 11 ⌈wzdnzd/aggregator⌋
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -466,162 +455,162 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 029 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 13 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 162 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 113 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 03 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 105 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 091 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 009 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 141 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 118 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 094 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 008 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 10 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 038 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 02 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 24 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 140 ⌈wzdnzd/aggregator⌋
-      - 🇨🇦 加拿大 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 040 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 027 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 056 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 20 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 073 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 080 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 06 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 044 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 084 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 04 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 085 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 104 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 020 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 045 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 009 ⌈wzdnzd/aggregator⌋
-      - 🇩🇪 德国 06 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 132 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 07 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 079 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 029 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 109 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 001 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 086 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 091 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 19 ⌈wzdnzd/aggregator⌋
-      - 🇹🇭 泰国商宽 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 090 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 096 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 076 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 050 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 048 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 090 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 21 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 015 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 18 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 103 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 112 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 032 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 005 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 071 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 05 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 022 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 04 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 10 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 003 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 067 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 137 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 087 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 054 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 157 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 007 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 097 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 011 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 25 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 01 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 03 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 121 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 083 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 08 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 119 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 056 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 041 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 021 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 13 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 103 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 130 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 017 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 135 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 23 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 059 ⌈wzdnzd/aggregator⌋
+      - 🇯🇵 日本 06 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 058 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 036 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 16 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 147 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 120 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 030 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 031 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 01 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 048 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 06 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 06 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 32 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 02 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 02 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 05 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 047 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 100 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 20 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 102 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 10 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 15 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南 01 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 02 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 133 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 09 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 03 ⌈wzdnzd/aggregator⌋
+      - 🇮🇳 印度 03 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 096 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 15 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 165 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 30 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 176 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 086 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 028 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 179 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 101 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 122 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 05 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 084 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 055 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 001 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 057 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 180 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 153 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 19 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 021 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 144 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 02 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 064 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 123 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 078 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 11 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 010 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 22 ⌈wzdnzd/aggregator⌋
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 029 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 13 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 162 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 113 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 03 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 105 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 091 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 009 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 141 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 118 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 094 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 008 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 10 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 038 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 02 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 24 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 140 ⌈wzdnzd/aggregator⌋
-      - 🇨🇦 加拿大 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 040 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 027 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 056 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 20 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 073 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 080 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 06 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 044 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 084 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 04 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 085 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 104 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 020 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 045 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 009 ⌈wzdnzd/aggregator⌋
-      - 🇩🇪 德国 06 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 132 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 07 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 079 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 029 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 109 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 001 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 086 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 091 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 19 ⌈wzdnzd/aggregator⌋
-      - 🇹🇭 泰国商宽 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 090 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 096 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 076 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 050 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 048 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 090 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 21 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 015 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 18 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 103 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 112 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 032 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 005 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 071 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 05 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 022 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 04 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 10 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 003 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 067 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 137 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 087 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 054 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 157 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 007 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 097 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 011 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 25 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 01 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 03 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 121 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 083 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 08 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 119 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 056 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 041 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 021 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 13 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 103 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 130 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 017 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 135 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 23 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 059 ⌈wzdnzd/aggregator⌋
+      - 🇯🇵 日本 06 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 058 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 036 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 16 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 147 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 120 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 030 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 031 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 01 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 048 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 06 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 06 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 32 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 02 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 02 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 05 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 047 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 100 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 20 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 102 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 10 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 15 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南 01 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 02 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 133 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 09 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 03 ⌈wzdnzd/aggregator⌋
+      - 🇮🇳 印度 03 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 096 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 15 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 165 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 30 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 176 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 086 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 028 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 179 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 101 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 122 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 05 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 084 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 055 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 001 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 057 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 180 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 153 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 19 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 021 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 144 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 02 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 064 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 123 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 078 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 11 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 010 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 22 ⌈wzdnzd/aggregator⌋
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -629,81 +618,81 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 029 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 13 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 162 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 113 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 03 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 105 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 091 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 009 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 141 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 118 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 094 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 008 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 10 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 038 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 02 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 24 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 140 ⌈wzdnzd/aggregator⌋
-      - 🇨🇦 加拿大 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 040 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 027 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 056 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 20 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 073 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 080 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 06 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 044 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 084 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 04 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 085 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 104 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 020 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 045 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 009 ⌈wzdnzd/aggregator⌋
-      - 🇩🇪 德国 06 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 132 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 07 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 079 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 029 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 109 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 001 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 086 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 091 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 19 ⌈wzdnzd/aggregator⌋
-      - 🇹🇭 泰国商宽 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 090 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 096 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 076 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 050 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 048 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 090 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 21 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 015 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 18 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 103 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 112 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 032 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 005 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 071 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 05 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 022 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 04 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 10 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 003 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 067 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 137 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 087 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 054 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 157 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 007 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 097 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 011 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 25 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 01 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 03 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 121 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 083 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 08 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 119 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 056 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 041 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 021 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 13 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 103 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 130 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 017 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 135 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 23 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 059 ⌈wzdnzd/aggregator⌋
+      - 🇯🇵 日本 06 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 058 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 036 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 16 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 147 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 120 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 030 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 031 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 01 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 048 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 06 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 06 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 32 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 02 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 02 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 05 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 047 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 100 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 20 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 102 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 10 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 15 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南 01 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 02 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 133 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 09 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 03 ⌈wzdnzd/aggregator⌋
+      - 🇮🇳 印度 03 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 096 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 15 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 165 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 30 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 176 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 086 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 028 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 179 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 101 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 122 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 05 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 084 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 055 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 001 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 057 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 180 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 153 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 19 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 021 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 144 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 02 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 064 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 123 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 078 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 11 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 010 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 22 ⌈wzdnzd/aggregator⌋
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -720,81 +709,81 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🔔 关注https://github.com/wzdnzd不迷路
-      - 🇺🇸 美国 029 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 10 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 13 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 162 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 113 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 03 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 105 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 091 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 009 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 141 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 118 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 094 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 008 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 10 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 038 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港家宽 02 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 24 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 140 ⌈wzdnzd/aggregator⌋
-      - 🇨🇦 加拿大 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 040 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 027 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 056 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 20 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 073 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 080 ⌈wzdnzd/aggregator⌋
-      - 🇰🇷 韩国 06 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 044 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 018 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 084 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 04 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 085 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 104 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 020 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 129 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 045 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 009 ⌈wzdnzd/aggregator⌋
-      - 🇩🇪 德国 06 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 132 ⌈wzdnzd/aggregator⌋
-      - 🇸🇬 新加坡 07 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 079 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 029 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 109 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 001 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 086 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 091 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 19 ⌈wzdnzd/aggregator⌋
-      - 🇹🇭 泰国商宽 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 090 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 096 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 076 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 050 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 048 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 090 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 21 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 015 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 18 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 103 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 112 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 032 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 005 ⌈wzdnzd/aggregator⌋
-      - 🇯🇵 日本 01 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 071 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 05 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 022 ⌈wzdnzd/aggregator⌋
-      - 🇻🇳 越南商宽 04 ⌈wzdnzd/aggregator⌋
-      - 🇹🇼 台湾 10 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 003 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 067 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 137 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 087 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 054 ⌈wzdnzd/aggregator⌋
-      - 🇺🇸 美国 157 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 007 ⌈wzdnzd/aggregator⌋
-      - 🇭🇰 香港 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 097 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 011 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 25 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 01 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 03 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 121 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 083 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 08 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 119 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 056 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 041 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 021 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 13 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 103 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 130 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 017 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 135 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 23 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 059 ⌈wzdnzd/aggregator⌋
+      - 🇯🇵 日本 06 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 058 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 036 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 16 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 147 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 110 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 120 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 030 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 031 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 01 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 048 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 06 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 06 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 32 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 02 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 02 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 05 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 047 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 100 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 20 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 102 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 10 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 15 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南 01 ⌈wzdnzd/aggregator⌋
+      - 🇳🇱 荷兰 02 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 133 ⌈wzdnzd/aggregator⌋
+      - 🇩🇪 德国 09 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 03 ⌈wzdnzd/aggregator⌋
+      - 🇮🇳 印度 03 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 096 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 15 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 165 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 30 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 176 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 086 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 028 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 179 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 101 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 122 ⌈wzdnzd/aggregator⌋
+      - 🇰🇷 韩国 05 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 084 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 055 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 001 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 057 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 180 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 153 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 19 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 021 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 144 ⌈wzdnzd/aggregator⌋
+      - 🇸🇬 新加坡 02 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 064 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 123 ⌈wzdnzd/aggregator⌋
+      - 🇭🇰 香港 078 ⌈wzdnzd/aggregator⌋
+      - 🇹🇼 台湾 11 ⌈wzdnzd/aggregator⌋
+      - 🇺🇸 美国 010 ⌈wzdnzd/aggregator⌋
+      - 🇻🇳 越南商宽 22 ⌈wzdnzd/aggregator⌋
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
